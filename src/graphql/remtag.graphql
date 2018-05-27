@@ -1,0 +1,6 @@
+mutation remTag($id:Int!){
+    remTag(id:$id){
+        id
+        label
+    }
+}

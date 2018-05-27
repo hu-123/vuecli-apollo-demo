@@ -1,0 +1,7 @@
+mutation addtag($type:String!,$label:String!){
+    addTag(type:$type,label:$label){
+        id
+        label
+        type
+    }
+}
